@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">The Time Condo</string>
+
+    <string name="maint">แจ้งซ่อม</string>
+    <string name="post">พัสดุ</string>
+    <string name="announ">ประกาศ</string>
+    <string name="total">ค่าน้ำ</string>
+
+    <!--prem-->
+    <string name="str_des_maint">เลือกรายการที่ต้องการซ่อม</string>
+    <string name="str_checkBox_aircon">เครื่องปรับอากาศ</string>
+    <string name="str_checkBox_stove">เตาไฟฟ้า</string>
+    <string name="str_checkBox_electric">ระบบไฟฟ้า</string>
+    <string name="str_checkBox_water">ระบบน้ำประปา</string>
+    <string name="str_checkBox_pipe">ระบบท่อ</string>
+    <string name="str_checkBox_bathroom">สุขภัณฑ์</string>
+    <string name="str_input_tel">**กรุณากรอกเบอร์ติดต่อกลับ</string>
+    <string name="str_input_other">กรุณาระบุปัญหา</string>
+    <string name="str_checkBox_other">อื่นๆ</string>
+    <!--endprem-->
+
+    <!--PLENG-->
+    <string name="Add">เพิ่มพัสดุ</string>
+    <string name="Delete">ลบพัสดุ</string>
+    <string name="Search">ค้นหาพัสดุ</string>
+    <color name="BackGround">#FFF8F8</color>
+    <!--ENDPLENG-->
+
+    <!-- hardsai -->
+    <string name="profile_image">TODO</string>
+    <string name="edit_image">TODO</string>
+    <!-- END hardsai -->
+
+    <!--chom-->
+    <string name="str_textView_now">ยอดปัจจุบัน</string>
+    <string name="str_textView_Outstanding">ยอดค้างชำระ</string>
+    <!--endchom-->
+
+    <!--green-->
+    <string name="building_a">ตึก A</string>
+    <string name="building_b">ตึก B</string>
+    <string name="str_numroom">หมายเลขห้อง</string>
+    <string name="str_ownername">ชื่อเจ้าของห้อง</string>
+    <string name="str_name">ชื่อ-นามสกุล </string>
+    <string name="str_owner_tel">เบอร์โทรเจ้าของห้อง</string>
+    <string name="str_tel">เบอร์โทรที่สามารถติดต่อได้</string>
+    <string name="str_owner_mail">อีเมลเจ้าของห้อง</string>
+    <string name="str_rent_name">ชื่อผู้อาศัย</string>
+    <string name="str_rent_tel">เบอร์โทรผู้อาศัย</string>
+    <string name="str_rentmail">อีเมลผู้อาศัย</string>
+    <string name="str_numcar">เลขทะเบียนรถยนต์</string>
+    <string name="str_numone">เลขทะเบียนคันที่1</string>
+    <string name="str_numtwo">เลขทะเบียนคันที่2</string>
+    <string name="str_nummotorcycle">เลขทะเบียนรถมอเตอร์ไซต์</string>
+    <string name="str_confirm">ยืนยัน</string>
+    <string name="str_username">ชื่อผู้ใช้งาน</string>
+    <string name="str_pass">รหัสผ่าน</string>
+    <string name="cost1">xx.xx bath</string>
+    <string name="cost2">xx.xx bath</string>
+
+
+</resources>

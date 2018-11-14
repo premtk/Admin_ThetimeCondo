@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1052548610207",
+    "firebase_url": "https://thetimecondo-aa20c.firebaseio.com",
+    "project_id": "thetimecondo-aa20c",
+    "storage_bucket": "thetimecondo-aa20c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052548610207:android:c5d9046d6b6bb519",
+        "android_client_info": {
+          "package_name": "com.se.weapp.admin_thetimecondo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052548610207-hra1qkopq7ih2hc7sfg3vp072ciq40n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGCK7QLXduYDiyxtdKCvagSZmLmcwT6w8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052548610207:android:792fa1e3265a1a6a",
+        "android_client_info": {
+          "package_name": "com.se.weapp.thetimecondo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052548610207-hra1qkopq7ih2hc7sfg3vp072ciq40n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGCK7QLXduYDiyxtdKCvagSZmLmcwT6w8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

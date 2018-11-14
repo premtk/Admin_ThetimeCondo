@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/annount"
+        android:icon="@mipmap/ic_announ"
+        android:title="@string/announ" />
+
+    <item
+        android:id="@+id/total"
+        android:title="@string/total"
+        android:icon="@mipmap/ic_water"/>
+
+    <item
+        android:id="@+id/post"
+        android:title="@string/post"
+        android:icon="@mipmap/ic_post"/>
+
+    <item
+        android:id="@+id/maint"
+        android:title="@string/maint"
+        android:icon="@mipmap/ic_maint"/>
+
+
+
+</menu>

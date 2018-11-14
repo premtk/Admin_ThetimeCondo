@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/buildingA"
+                android:layout_width="174dp"
+                android:layout_height="32dp"
+                android:text="@string/building_a"
+                android:textColor="#000000"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <RadioButton
+                android:id="@+id/buildingB"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:text="@string/building_b"
+                android:textColor="#000000"
+                tools:layout_editor_absoluteX="178dp"
+                tools:layout_editor_absoluteY="16dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/numroomtext"
+            android:layout_width="142dp"
+            android:layout_height="34dp"
+            android:text="@string/str_numroom"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <EditText
+            android:id="@+id/numroom"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="50"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:hint="@string/str_numroom"
+            android:textColor="#646464"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="92dp"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/ownernametext"
+            android:layout_width="142dp"
+            android:layout_height="32dp"
+            android:text="@string/str_ownername"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="150dp" />
+
+        <EditText
+            android:id="@+id/ownername"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="50"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:hint="@string/str_name"
+            android:textColor="#646464"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="181dp"
+            tools:targetApi="o" />
+
+
+
+        <TextView
+            android:id="@+id/ownerteltext"
+            android:layout_width="187dp"
+            android:layout_height="32dp"
+            android:text="@string/str_owner_tel"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="408dp" />
+
+        <EditText
+            android:id="@+id/ownertel"
+            android:layout_width="373dp"
+            android:layout_height="40dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="center"
+            android:inputType=""
+            android:hint="@string/str_tel"
+            android:textColor="#646464"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="446dp"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/ownermailtext"
+            android:layout_width="194dp"
+            android:layout_height="35dp"
+            android:text="@string/str_owner_mail"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="408dp" />
+
+        <EditText
+            android:id="@+id/ownermail"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="center"
+            android:inputType=""
+            android:hint="@string/str_owner_mail"
+            android:textColor="#646464"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="446dp"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/rentnametext"
+            android:layout_width="138dp"
+            android:layout_height="29dp"
+            android:text="@string/str_rent_name"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="150dp" />
+
+        <EditText
+            android:id="@+id/rentname"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="50"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:hint="@string/str_name"
+            android:textColor="#646464"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="181dp"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/rentteltext"
+            android:layout_width="196dp"
+            android:layout_height="30dp"
+            android:text="@string/str_rent_tel"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="408dp" />
+
+        <EditText
+            android:id="@+id/renttel"
+            android:layout_width="374dp"
+            android:layout_height="38dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="center"
+            android:inputType=""
+            android:hint="@string/str_tel"
+            android:textColor="#646464"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="446dp" />
+
+        <TextView
+            android:id="@+id/rentmailtext"
+            android:layout_width="196dp"
+            android:layout_height="30dp"
+            android:text="@string/str_rentmail"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="408dp" />
+
+        <EditText
+            android:id="@+id/rentmail"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="center"
+            android:inputType=""
+            android:hint="@string/str_rentmail"
+            android:textColor="#646464"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="446dp" tools:targetApi="o"/>
+
+        <TextView
+            android:id="@+id/passtext"
+            android:layout_width="142dp"
+            android:layout_height="34dp"
+            android:text="@string/str_pass"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="50"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:hint="@string/str_pass"
+            android:textColor="#646464"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="181dp"
+            tools:targetApi="o" />
+
+
+        <TextView
+            android:id="@+id/nummotorcycletext"
+            android:layout_width="241dp"
+            android:layout_height="29dp"
+            android:text="@string/str_nummotorcycle"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="323dp" />
+
+        <EditText
+            android:id="@+id/nummotorcycle"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="center"
+            android:inputType=""
+            android:hint="@string/str_numone"
+            android:textColor="#646464"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="360dp"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/nummotorcycletwo"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="center"
+            android:inputType=""
+            android:hint="@string/str_numtwo"
+            android:textColor="#646464"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="360dp"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/numcartext"
+            android:layout_width="148dp"
+            android:layout_height="26dp"
+            android:text="@string/str_numcar"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+        <EditText
+            android:id="@+id/numcar"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType=""
+            android:hint="@string/str_numone"
+            android:textColor="#646464"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="267dp"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/numcartwo"
+            android:layout_width="373dp"
+            android:layout_height="38dp"
+            android:ems="10"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType=""
+            android:hint="@string/str_numtwo"
+            android:textColor="#646464"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="267dp"
+            tools:targetApi="o" />
+
+        <Button
+            android:id="@+id/confirmProfileBt"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="@string/str_confirm" />
+
+    </LinearLayout>
+</ScrollView>
