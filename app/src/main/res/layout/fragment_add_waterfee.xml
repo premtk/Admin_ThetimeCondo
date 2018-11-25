@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RadioButton
+        android:id="@+id/radioButton_BBuilding"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="63dp"
+        android:text="@string/B"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_numroom"
+        app:layout_constraintEnd_toStartOf="@+id/search"
+        app:layout_constraintStart_toEndOf="@+id/radioButton_ABuilding"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton_ABuilding"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="34dp"
+        android:text="@string/A"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_numroom"
+        app:layout_constraintEnd_toStartOf="@+id/radioButton_BBuilding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_numroom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/str_numroom"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_numroom"
+        app:layout_constraintEnd_toStartOf="@+id/radioButton_BBuilding"
+        app:layout_constraintStart_toStartOf="@+id/editText_numroom"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton_ABuilding" />
+
+
+    <EditText
+        android:id="@+id/editText_numroom"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="31dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/str_numroom"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textView_lastUnit"
+        app:layout_constraintStart_toStartOf="@+id/textView_lastUnit"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton_BBuilding" />
+
+    <TextView
+        android:id="@+id/textView_lastUnit"
+        android:layout_width="160dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:text="@string/str_textView_oldunit"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_lastUnit"
+        app:layout_constraintEnd_toEndOf="@+id/editText_lastUnit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_numroom" />
+
+
+    <EditText
+        android:id="@+id/editText_lastUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:hint="@string/str_textView_oldunit"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textView_latestUnit"
+        app:layout_constraintStart_toStartOf="@+id/textView_latestUnit"
+        app:layout_constraintTop_toBottomOf="@+id/textView_lastUnit" />
+
+
+    <TextView
+        android:id="@+id/textView_latestUnit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/str_textView_nowunit"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_latestUnit"
+        app:layout_constraintEnd_toEndOf="@+id/editText_latestUnit"
+        app:layout_constraintStart_toStartOf="@+id/editText_latestUnit"
+        app:layout_constraintTop_toBottomOf="@+id/editText_lastUnit" />
+
+
+    <EditText
+        android:id="@+id/editText_latestUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginBottom="45dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/str_textView_nowunit"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/confirmAddWaterfeeBt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_latestUnit" />
+
+
+    <Button
+        android:id="@+id/confirmAddWaterfeeBt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginBottom="34dp"
+        android:text="@string/str_confirm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_latestUnit" />
+
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButton_BBuilding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/radioButton_BBuilding"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_search" />
+
+
+</android.support.constraint.ConstraintLayout>

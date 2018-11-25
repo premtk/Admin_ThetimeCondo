@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 fragment = new MaintenanceFragment();       //prem
                 break;
             case R.id.total:                                  //chompoo
-                fragment = new TotalFragment();               //chompoo
+                fragment = new addWaterfee();               //chompoo
                 break;
         }
 
